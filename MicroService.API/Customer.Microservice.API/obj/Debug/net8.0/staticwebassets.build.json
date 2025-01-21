@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "NEm213FfHtF+XgGKKv5TZi2o5+ikpsh0+pOimJz1zpk=",
+  "Source": "Customer.Microservice.API",
+  "BasePath": "_content/Customer.Microservice.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
