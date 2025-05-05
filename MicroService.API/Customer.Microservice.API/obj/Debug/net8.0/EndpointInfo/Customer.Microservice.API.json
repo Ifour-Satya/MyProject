@@ -189,10 +189,75 @@
           }
         }
       }
+    },
+    "/api/Student/AddTableProperty": {
+      "post": {
+        "tags": [
+          "Student"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ColumnAdditionRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ColumnAdditionRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ColumnAdditionRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
+      "AddColumnRequest": {
+        "type": "object",
+        "properties": {
+          "columnName": {
+            "type": "string",
+            "nullable": true
+          },
+          "columnType": {
+            "type": "string",
+            "nullable": true
+          },
+          "allowNull": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ColumnAdditionRequest": {
+        "type": "object",
+        "properties": {
+          "tableName": {
+            "type": "string",
+            "nullable": true
+          },
+          "columns": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AddColumnRequest"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Customer": {
         "type": "object",
         "properties": {

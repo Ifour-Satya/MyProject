@@ -1,0 +1,6 @@
+@CustomLoggerDemo_HostAddress = http://localhost:5062
+
+GET {{CustomLoggerDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

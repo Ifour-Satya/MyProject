@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Customer.Microservice.API.Model;
+using Microsoft.EntityFrameworkCore;
 
 namespace Customer.Microservice.API.Data
 {
@@ -8,7 +9,8 @@ namespace Customer.Microservice.API.Data
         {
 
         }
-        public DbSet<Model.Customer> Customers { get; set; }  
+        public DbSet<Model.Customer> Customers { get; set; }
+        public DbSet<Student> Student { get; set; }
     }
 }
  

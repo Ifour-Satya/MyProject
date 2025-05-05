@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AGxYbMsXLDU=",
+  "dgSpecHash": "/jvEEv1uOW4=",
   "success": true,
-  "projectFilePath": "D:\\Pratice\\MicroService.API\\Customer.Microservice.API\\Customer.Microservice.API.csproj",
+  "projectFilePath": "D:\\MProject\\MyProject\\MicroService.API\\Customer.Microservice.API\\Customer.Microservice.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\satyaprakash.panda\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\satyaprakash.panda\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

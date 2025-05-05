@@ -1,0 +1,4 @@
+﻿2025-04-18 13:18:51 [Information] CustomLoggerDemo.Controllers.TestController: LogInformation: The LogAllLevels endpoint was reached successfully.
+2025-04-18 13:19:14 [Warning] CustomLoggerDemo.Controllers.TestController: LogWarning: External API taking More Time to Respond. Action may be required soon.
+2025-04-18 13:19:30 [Error] CustomLoggerDemo.Controllers.TestController: LogError: An error occurred while processing the request.
+2025-04-18 13:19:38 [Critical] CustomLoggerDemo.Controllers.TestController: LogCritical: A critical system failure has been detected. Immediate attention is required.

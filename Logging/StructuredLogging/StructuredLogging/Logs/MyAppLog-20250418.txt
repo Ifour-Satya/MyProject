@@ -1,0 +1,2 @@
+2025-04-18 17:01:36  [INF] [App-LoggingDemo/Server-125.08.13.1] Added a new book {"Id":1003,"Title":"C#.NET","Author":"Pranaya","YearPublished":2023,"$type":"Book"}
+2025-04-18 17:01:44  [INF] [App-LoggingDemo/Server-125.08.13.1] Retrieved all books. Books: [{"Id":1001,"Title":"ASP.NET Core","Author":"Satya","YearPublished":2019,"$type":"Book"},{"Id":1002,"Title":"SQL Server","Author":"Satya","YearPublished":2022,"$type":"Book"},{"Id":1003,"Title":"C#.NET","Author":"Pranaya","YearPublished":2023,"$type":"Book"}]

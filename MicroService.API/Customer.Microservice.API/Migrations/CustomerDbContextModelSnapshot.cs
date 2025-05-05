@@ -45,6 +45,19 @@ namespace Customer.Microservice.API.Migrations
 
                     b.ToTable("Customers");
                 });
+
+            modelBuilder.Entity("Customer.Microservice.API.Model.Student", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Student");
+                });
 #pragma warning restore 612, 618
         }
     }

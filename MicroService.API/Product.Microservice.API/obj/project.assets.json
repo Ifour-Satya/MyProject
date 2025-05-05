@@ -8245,11 +8245,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Pratice\\MicroService.API\\Product.Microservice.API\\Product.Microservice.API.csproj",
+      "projectUniqueName": "D:\\MProject\\MyProject\\MicroService.API\\Product.Microservice.API\\Product.Microservice.API.csproj",
       "projectName": "Product.Microservice.API",
-      "projectPath": "D:\\Pratice\\MicroService.API\\Product.Microservice.API\\Product.Microservice.API.csproj",
+      "projectPath": "D:\\MProject\\MyProject\\MicroService.API\\Product.Microservice.API\\Product.Microservice.API.csproj",
       "packagesPath": "C:\\Users\\satyaprakash.panda\\.nuget\\packages\\",
-      "outputPath": "D:\\Pratice\\MicroService.API\\Product.Microservice.API\\obj\\",
+      "outputPath": "D:\\MProject\\MyProject\\MicroService.API\\Product.Microservice.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8280,9 +8280,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -8340,7 +8340,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

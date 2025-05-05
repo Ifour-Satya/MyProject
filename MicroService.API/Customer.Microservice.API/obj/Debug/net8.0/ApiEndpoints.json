@@ -107,5 +107,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Customer.Microservice.API.Controllers.StudentController",
+    "Method": "AddColumn",
+    "RelativePath": "api/Student/AddTableProperty",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Customer.Microservice.API.Request.ColumnAdditionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

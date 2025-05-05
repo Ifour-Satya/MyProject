@@ -1,0 +1,40 @@
+﻿2025-04-18 15:59:34.364 +05:30 [INF] Now listening on: https://localhost:7189
+2025-04-18 15:59:34.419 +05:30 [INF] Now listening on: http://localhost:5290
+2025-04-18 15:59:34.547 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-18 15:59:34.550 +05:30 [INF] Hosting environment: Development
+2025-04-18 15:59:34.553 +05:30 [INF] Content root path: D:\MProject\MyProject\Logging\SerilogLoggingDemo\SerilogLoggingDemo
+2025-04-18 15:59:36.561 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger - null null
+2025-04-18 15:59:36.847 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger - 301 0 null 297.2648ms
+2025-04-18 15:59:36.855 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/index.html - null null
+2025-04-18 15:59:36.975 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/index.html - 200 null text/html;charset=utf-8 120.7312ms
+2025-04-18 15:59:37.027 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/swagger-ui.css - null null
+2025-04-18 15:59:37.028 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-18 15:59:37.032 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-18 15:59:37.027 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/swagger-ui-bundle.js - null null
+2025-04-18 15:59:37.055 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - null null
+2025-04-18 15:59:37.086 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - 200 16521 application/javascript; charset=utf-8 53.4944ms
+2025-04-18 15:59:37.137 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-18 15:59:37.137 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-18 15:59:37.146 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 118.5834ms
+2025-04-18 15:59:37.155 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/swagger-ui.css - 200 152034 text/css 127.3512ms
+2025-04-18 15:59:37.256 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-18 15:59:37.260 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 232.9311ms
+2025-04-18 15:59:37.275 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - 200 null text/javascript; charset=UTF-8 220.3294ms
+2025-04-18 15:59:37.538 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - null null
+2025-04-18 15:59:37.559 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.8244ms
+2025-04-18 15:59:37.592 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/favicon-32x32.png - null null
+2025-04-18 15:59:37.606 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-18 15:59:37.609 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/favicon-32x32.png - 200 628 image/png 16.5458ms
+2025-04-18 16:00:07.504 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7189/api/Test/all-logs - null null
+2025-04-18 16:00:07.520 +05:30 [INF] Executing endpoint 'SerilogLoggingDemo.Controllers.TestController.LogAllLevels (SerilogLoggingDemo)'
+2025-04-18 16:00:07.558 +05:30 [INF] Route matched with {action = "LogAllLevels", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogAllLevels() on controller SerilogLoggingDemo.Controllers.TestController (SerilogLoggingDemo).
+2025-04-18 16:00:56.421 +05:30 [INF] LogInformation: The LogAllLevels endpoint was reached successfully.
+2025-04-18 16:01:04.996 +05:30 [WRN] LogWarning: Resource usage is nearing the limit.
+2025-04-18 16:01:22.568 +05:30 [ERR] LogError: An error occurred while processing the request.
+System.DivideByZeroException: Attempted to divide by zero.
+   at SerilogLoggingDemo.Controllers.TestController.LogAllLevels() in D:\MProject\MyProject\Logging\SerilogLoggingDemo\SerilogLoggingDemo\Controllers\TestController.cs:line 42
+2025-04-18 16:01:31.679 +05:30 [FTL] LogCritical: A critical system failure has been detected.
+2025-04-18 16:01:40.543 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-04-18 16:01:40.561 +05:30 [INF] Executed action SerilogLoggingDemo.Controllers.TestController.LogAllLevels (SerilogLoggingDemo) in 92987.6015ms
+2025-04-18 16:01:40.565 +05:30 [INF] Executed endpoint 'SerilogLoggingDemo.Controllers.TestController.LogAllLevels (SerilogLoggingDemo)'
+2025-04-18 16:01:40.569 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7189/api/Test/all-logs - 200 null text/plain; charset=utf-8 93065.6361ms
