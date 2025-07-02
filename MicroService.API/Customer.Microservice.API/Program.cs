@@ -1,5 +1,4 @@
 using Customer.Microservice.API.Data;
-using Customer.Microservice.API.Service;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,7 +19,6 @@ builder.Services.AddDbContext<CustomerDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("CustomerDbContext")), ServiceLifetime.Scoped);
 
 
-builder.Services.AddScoped<IDatabaseService, DatabaseService>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

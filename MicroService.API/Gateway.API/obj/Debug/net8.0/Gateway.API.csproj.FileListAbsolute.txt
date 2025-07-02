@@ -32,12 +32,6 @@ D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\scopedcss\bundle\Gatewa
 D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets.build.json
 D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets.development.json
 D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets\msbuild.Gateway.API.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets\msbuild.Gateway.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets\msbuild.build.Gateway.API.props
-D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Gateway.API.props
-D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Gateway.API.props
-D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets.pack.json
 D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\Gateway..9802D141.Up2Date
 D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\Gateway.API.dll
@@ -45,6 +39,7 @@ D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\refint\Gateway.API.dll
 D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\Gateway.API.pdb
 D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\Gateway.API.genruntimeconfig.cache
 D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\ref\Gateway.API.dll
+D:\Pratice\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\MProject\MyProject\MicroService.API\Gateway.API\bin\Debug\net8.0\appsettings.Development.json
 D:\MProject\MyProject\MicroService.API\Gateway.API\bin\Debug\net8.0\appsettings.json
 D:\MProject\MyProject\MicroService.API\Gateway.API\bin\Debug\net8.0\ocelot.json
@@ -78,14 +73,9 @@ D:\MProject\MyProject\MicroService.API\Gateway.API\obj\Debug\net8.0\Gateway.API.
 D:\MProject\MyProject\MicroService.API\Gateway.API\obj\Debug\net8.0\Gateway.API.sourcelink.json
 D:\MProject\MyProject\MicroService.API\Gateway.API\obj\Debug\net8.0\scopedcss\bundle\Gateway.API.styles.css
 D:\MProject\MyProject\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets.build.json
+D:\MProject\MyProject\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\MProject\MyProject\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets.development.json
 D:\MProject\MyProject\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\MProject\MyProject\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets\msbuild.Gateway.API.Microsoft.AspNetCore.StaticWebAssets.props
-D:\MProject\MyProject\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets\msbuild.Gateway.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\MProject\MyProject\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets\msbuild.build.Gateway.API.props
-D:\MProject\MyProject\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Gateway.API.props
-D:\MProject\MyProject\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Gateway.API.props
-D:\MProject\MyProject\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets.pack.json
 D:\MProject\MyProject\MicroService.API\Gateway.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\MProject\MyProject\MicroService.API\Gateway.API\obj\Debug\net8.0\Gateway..9802D141.Up2Date
 D:\MProject\MyProject\MicroService.API\Gateway.API\obj\Debug\net8.0\Gateway.API.dll
